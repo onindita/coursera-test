@@ -1,0 +1,78 @@
+body {
+    font-size: 16px;
+    font-family: 'Balsamiq Sans';
+    color: #000;
+    margin:0;
+}
+
+/**HEADER**/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  border-top: #000 solid 3px;
+  border-bottom: #000 solid 3px;
+}
+
+.navbar-brand {
+    padding: 20px;
+    height: 65px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+.navbar-toggle {
+    margin-top: 12px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar  {
+    border: 2px solid #000;
+}
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#nav-list li {
+    border-top: 2px solid #000;
+}
+#nav-list a {
+    text-align: center;
+    color: black;
+    background-color: darkgrey;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+/**END OF HEADER**/
+
+/**BODY**/
+.body-text {
+    width: 100%;
+    padding: 10px;
+    background-color: grey;
+}
+#title {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    /* Header */
+  
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  
